@@ -1,0 +1,9 @@
+int[] maxOfTwoArrays(int[] arr1, int[] arr2) {
+  int  shortArrLen = (arr1.length < arr2.length) ? arr1.length : arr2.length;
+
+  int[] maxOfTwoArraysArr = (arr1.length > arr2.length) ? arr1 : arr2;
+  for (int i = 0; i < shortArrLen; i++) {
+    maxOfTwoArraysArr[i] = (arr1[i] > arr2[i]) ? arr1[i] : arr2[i];
+  }
+  return maxOfTwoArraysArr;
+}
