@@ -1,4 +1,8 @@
 
+// basically the first time I wrote a class.
+// They sort of are similar to arrays, I can't really explain it, but it feels that way.
+// Oh wait, I know why, because an array is an object?
+
 
 class Product {
   String name;
