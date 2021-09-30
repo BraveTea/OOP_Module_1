@@ -10,9 +10,15 @@ int[] maxOfTwoArrays(int[] arr1, int[] arr2) {
 }
 
 // Feedback:
-// - gebruik vd ternary operator werkt goed, maakt t vrij succinct allemaal
-// - ik vind t niet heel leesbaar, misschien dat uitgeschreven variabele namen t beter zouden maken (e.g. `lengthOfShortestArray`)
-// - de langste array wordt als return value genomen en aangepast, het gevaar hierbij bestaat dat de input (arr1 of arr2) ook wordt aangepast, aangezien arrays 'pass-by-reference' zijn. 
+//1 - gebruik vd ternary operator werkt goed, maakt t vrij succinct allemaal
+//2 - ik vind t niet heel leesbaar, misschien dat uitgeschreven variabele namen t beter zouden maken (e.g. `lengthOfShortestArray`)
+//3 - de langste array wordt als return value genomen en aangepast, het gevaar hierbij bestaat dat de input (arr1 of arr2) ook wordt aangepast, aangezien arrays 'pass-by-reference' zijn. 
 //   Het is beter om een array te kopiëren voordat je hem gaat aanpassen, e.g. `int[] maxOfTwoArraysArr = (arr1.length > arr2.length) ? copyOf(arr1) : copyOf(arr2);`
 
-
+//  Vragen/Reactie op feedback.
+//0 - Allereerst, thanks for taking the time writing this feedback. Much obliged and greatly appreciated!
+//1 - Thanks. Na vandaag zit het beter in mijn hoofd dus dat is mooi. Ik vind het nog wel wat pythonesque, maar dat mag af en toe best ;)
+//2 - Dat is een goed punt. het is idd voor mij leesbaar omdat ik weet wat ik aan het doen ben, maar dat kan idd nog veel leesbaarder. Is het good practise om eerst een "relatief duidelijk
+//    short hand te gebruiken zoals 'shortArrLen' en die later te en masse te vervangen naar bijv lengthOfShortestArray ? Of is het een kwestie van maar gewoon wennen aan lange
+//    variabelen typen?
+//3 - dat is een uitstekende tip! Thanks. Is    Arrays.copyOf(arr1, arr1.length)    dan een acceptabele manier van een kopie maken? (vooral de arr1.length is de vraag)
