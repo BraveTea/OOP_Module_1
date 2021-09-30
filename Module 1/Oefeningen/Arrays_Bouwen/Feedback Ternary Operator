@@ -22,3 +22,7 @@ int[] maxOfTwoArrays(int[] arr1, int[] arr2) {
 //    short hand te gebruiken zoals 'shortArrLen' en die later te en masse te vervangen naar bijv lengthOfShortestArray ? Of is het een kwestie van maar gewoon wennen aan lange
 //    variabelen typen?
 //3 - dat is een uitstekende tip! Thanks. Is    Arrays.copyOf(arr1, arr1.length)    dan een acceptabele manier van een kopie maken? (vooral de arr1.length is de vraag)
+
+
+
+
