@@ -14,3 +14,5 @@ int[] maxOfTwoArrays(int[] arr1, int[] arr2) {
 // - ik vind t niet heel leesbaar, misschien dat uitgeschreven variabele namen t beter zouden maken (e.g. `lengthOfShortestArray`)
 // - de langste array wordt als return value genomen en aangepast, het gevaar hierbij bestaat dat de input (arr1 of arr2) ook wordt aangepast, aangezien arrays 'pass-by-reference' zijn. 
 //   Het is beter om een array te kopiëren voordat je hem gaat aanpassen, e.g. `int[] maxOfTwoArraysArr = (arr1.length > arr2.length) ? copyOf(arr1) : copyOf(arr2);`
+
+
