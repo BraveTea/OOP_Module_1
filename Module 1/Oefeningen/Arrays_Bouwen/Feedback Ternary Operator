@@ -23,6 +23,14 @@ int[] maxOfTwoArrays(int[] arr1, int[] arr2) {
 //    variabelen typen?
 //3 - dat is een uitstekende tip! Thanks. Is    Arrays.copyOf(arr1, arr1.length)    dan een acceptabele manier van een kopie maken? (vooral de arr1.length is de vraag)
 
+// Reactie op reactie
+//0 - Graag gedaam, is leuk om te doen! 
+//2 - Tja, it depends. Good practice is om duidelijke variabelenamen te gebruiken, maar wat duidelijk is hangt af van de context. Over het algemeen probeer ik deze sources aan te houden:
+//      * https://research.swtch.com/names
+//      * https://www.lysator.liu.se/c/pikestyle.html (onder 'Variable names')
+//      * https://github.com/golang/go/wiki/CodeReviewComments#variable-names
+//    Maar in Java is het gebruikelijker om lange variabelenamen te hebben dan in Go. 
+//3 - Yes, `Arrays.copyOf(arr1, arr1.length)` is prima! 
 
 
 
