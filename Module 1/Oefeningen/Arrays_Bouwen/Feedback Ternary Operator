@@ -32,5 +32,12 @@ int[] maxOfTwoArrays(int[] arr1, int[] arr2) {
 //    Maar in Java is het gebruikelijker om lange variabelenamen te hebben dan in Go. 
 //3 - Yes, `Arrays.copyOf(arr1, arr1.length)` is prima! 
 
+//  Reactie op reactie op reactie
+//0 - Awesome.
+//2 - interesting reads. Vooral de: hoe verder de declaratie van de variabele verwijderd is van het gebruik ervan, hoe more descriptive deze moet zijn. En ook zo met zeldzaamheid.
+//    Het lijkt er idd op dat Go vooral het heel kort wil hebben :)
+//3 - Excellent. Thanks.
+
+
 
 
